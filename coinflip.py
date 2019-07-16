@@ -1,16 +1,14 @@
 import random
 
-# ask user how many coin flips they wish to make
-num_flips = int(input("How many times would you like to flip the coin? "))
-
-
-
 # coin flip function
 def flippit():
+
+    # ask user how many coin flips they wish to make
+    num_flips = int(input("How many times would you like to flip the coin? "))    
     
     # initialize emptly list for results
     results = []
-    
+        
     # counters
     flips = 0
     heads = 0
@@ -25,7 +23,11 @@ def flippit():
             tails += 1
         flips += 1
 
-    print("Heads came up {} times, and Tails came up {} times.".format(heads, tails))
-    print("The individual results in order were {}.".format(results))
+    results_delist = ', '.join(results)
+
+    print("Heads flipped: " , heads )
+    print("Tails flipped: ", tails)
+    print("The individual flips in order were: {}.".format(results_delist))
         
+
 flippit()        
