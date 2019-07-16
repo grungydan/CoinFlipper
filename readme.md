@@ -1,2 +1,1 @@
-This is a simple CLI based  coin flip simulator written in Python 3 by Daniel Henson. It asks the user to specify how many coin flips to make and
-returns a list of the result of those flips. 
+This is a simple CLI based  coin flip simulator written in Python 3 by Daniel Henson. It asks the user to specify how many coin flips to make and returns the number of Heads and Tails results, as well as a list of the result of the individual flips.
